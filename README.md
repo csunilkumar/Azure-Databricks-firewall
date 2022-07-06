@@ -7,9 +7,14 @@ Based on the baseline of best practices deatailed in  [Data Exfiltration Protect
 - Install [Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/install#azure-cli)
 - Better to use VS Code with bicep extension [instructions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/install#azure-cli)
 - Clone the repo or download this repo, change into the repository directory using cd.
+
+## Note
+
 - By default location is set to West US 2 region in `main.bicep` file, changing the region would need to update the URD configuration in the `main.bicep` file
 `@description('Default location of the resources')
 param location string = 'westus2'`
+- To create multiple environments in same subscription change the following string in main.bicep file, that would recreate all entities in a new resource group and the services will be prefixed with this string
+`param prefix string = 'kkc'`
 
 # How to use
 
