@@ -1,6 +1,8 @@
 # Deploy secure Azure Databricks cluster with Data exfiltration using [Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview).
 
-Based on the baseline of best practices deatailed in  [Data Exfiltration Protection with Azure Databricks](https://databricks.com/blog/2020/03/27/data-exfiltration-protection-with-azure-databricks.html)
+Based on the baseline of best practices deatailed in  [Data Exfiltration Protection with Azure Databricks](https://databricks.com/blog/2020/03/27/data-exfiltration-protection-with-azure-databricks.html).
+
+![Overview Diagram](images/Version1-arch.png)
 
 # To Do
 - Install [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
