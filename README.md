@@ -22,6 +22,7 @@ param location string = 'westus2'`
 `az login`
 - Recommend setting to use a specific subscription to avoid surprises:
 `az account set -s "subscriptionID"
+- Command to run the Bicep main deployment file, if successful that should create all the Azure Service listed in the table below.
 `az deployment sub create \
     --location "westus2" \
     --template-file main.bicep `
